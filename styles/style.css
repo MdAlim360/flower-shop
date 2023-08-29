@@ -12,6 +12,7 @@ body{font-family: 'EB Garamond', serif;
                  width:170px;
                  border: 1px solid #E55473 ;
                  font-size: 20px;}
+    .primary-color{color:#E55473}
 
 .primary-background-color{background-color:rgb(253, 238, 241)}
 
@@ -51,7 +52,8 @@ nav ul li a{text-decoration: none;
 
 /* header related styles */
 header{height: 600px;
-       margin-bottom: 110px;}
+       margin-bottom: 110px;
+       border-radius: 10px;}
 .header-img{   width: 400px;
                height: 450px;
                margin-left: 100px;
@@ -153,6 +155,73 @@ header{height: 600px;
 .deals-btn{height: 50px;
            width:150px;
            }
+
+            /* hot deals styles */
+
+
+.hot-deals{     display: flex;
+                align-items: center;
+                justify-content: space-around;
+                height: 500px;
+                border-radius: 10px;
+                }
+
+
+.hot-deals-img{width: 270px;
+               height: 350px;
+               margin-right: 150px;
+               margin-top: 50px;
+               padding-bottom: 40px;}
+
+.hot-deals-btn{margin-left: 300px;}
+.hot-deals-item{padding-left: 50px;
+                 margin-top: -100px;}
+
+
+                 /* instagram section styles */
+
+.insta-text{margin-bottom: 50px;}
+
+.insta-section-imgs{margin-left: 110px;
+                    margin-bottom: 150px;}
+
+.insta-section-img{width: 280px;
+                   height: 356px;
+                   margin-right: 15px;
+                   border-radius: 5px;}
+
+
+                   /* vase flower section styles */
+
+.vase-flower{width: 280px;
+    height: 356px;
+    margin-right: 15px;
+    border-radius: 5px;}
+
+.glass-flower, .glass-flower-1{display: flex;}
+.glass-flower-1{margin-top: -90px;}
+.img-title{color: #272727;}
+.img-btn{width: 100px;
+         height: 30px;
+         background-color: lightcoral;
+        color: white;
+        font-size: 20px;
+        border: 1px solid lightcoral;
+        border-radius: 5px;}
+.price{font-size: 20px;
+    color: #272727;}
+ .vase-flower:hover{border: 2px solid #E55473;}
+ .img-btn-pro:hover{border: 2px solid #E55473;background-color: red;}
+
+ .glass-flower-title{color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+   margin-left: 50px;}
+.glass-flower-pre-title{text-align: center;
+                        margin-bottom: -120px;
+                        margin-left: 70px;}
 
 
 
