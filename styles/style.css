@@ -127,7 +127,7 @@ header{height: 600px;
 
                /* deals section related styles */
 
-.latest-deals{background-image: url(/styles/Rectangle\ 9.png);
+.latest-deals{background-image: url("../flower-assets/Rectangle\ 9.png");
               background-repeat: no-repeat;
               background-size: contain; 
               height: 449px;
