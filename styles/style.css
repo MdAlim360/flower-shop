@@ -108,18 +108,18 @@ header{height: 600px;
            padding: 100px 30px 0px 30px;} 
 .img-name{color: #272727;
           text-align: center;
-          font-size: 24px;
-          font-weight: 700; 
+          font-size: 20px;
+          font-weight: 100; 
           margin-bottom: 110px;}
 
 
           /* service section styles */
 
 .services{background-color: rgb(244, 244, 244);
-          height: 320px;
+          height: 230px;
           display: flex;
           align-items: center;
-          margin: 0px 160px 100px 160px;
+          margin: 0px 150px 100px 150px;
           border-radius: 10px;}
 .service-img{padding: 0px 80px 0px 80px;margin-left: 80px;}
 .service-info{margin-left: 110px;}
@@ -131,18 +131,18 @@ header{height: 600px;
               background-repeat: no-repeat;
               background-size: contain; 
               height: 449px;
-              margin: 0px 160px 100px 160px;}
+              margin: -20px 160px 100px 160px;}
 
 .deals-title{color: #272727;
              text-align: center;
-             font-size: 40px;
-             font-weight: 800;
+             font-size: 30px;
+             font-weight: 600;
              padding-top: 80px;
              margin-bottom: -7px;
             margin-left: 50px;}
 .deals-text{color: rgba(39, 39, 39, 0.60);
             text-align: center;  
-            font-size: 18px;
+            font-size: 16px;
             margin-left: 50px;
    }
 .input-info{width: 480px;
@@ -150,7 +150,8 @@ header{height: 600px;
             margin:20px 20px 20px 200px;
             border: 1px solid white;
             border-radius: 5px;
-            margin-right: 7px;}
+            margin-right: 7px; 
+            padding-left: 20px;}
 
 .deals-btn{height: 50px;
            width:150px;
@@ -164,11 +165,11 @@ header{height: 600px;
                 justify-content: space-around;
                 height: 500px;
                 border-radius: 10px;
-                }
+                background-color: rgb(253, 246, 248);}
 
 
-.hot-deals-img{width: 270px;
-               height: 350px;
+.hot-deals-img{width: 250px;
+               height: 330px;
                margin-right: 150px;
                margin-top: 50px;
                padding-bottom: 40px;}
@@ -221,7 +222,28 @@ header{height: 600px;
    margin-left: 50px;}
 .glass-flower-pre-title{text-align: center;
                         margin-bottom: -120px;
-                        margin-left: 70px;}
+                        margin-left: 70px;} 
 
+
+                        /* footer related styles */
+
+footer{height: 449px;
+       background-color: black;
+       margin-top: -90px;}
+
+.footer-title{color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;}
+.footer-text-clr{color:#E55473}
+.footer-text-1{color: rgba(255, 255, 255, 0.90);
+               text-align: center;
+               font-size: 18px;
+               margin-top: -30px;}
+
+.footer-text-2{color: rgba(255, 255, 255, 0.40);
+               text-align: center;
+               font-size: 16px;}
 
 
